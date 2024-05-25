@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        #heading {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        #bodi {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #bodi a {
+            margin: 15px;
+            text-decoration: underline;
+            color: black;
+            font-size: x-large;
+        }
+        img{
+            width: 50vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="heading">
+        <h1>Multithreaded C++ Web Server</h1>
+    </div>
+    <div id="bodi">
+        <a href="http://localhost:8080/file1">Get File1</a>
+        <a href="http://localhost:8080/file2">Get File2</a>
+        <a href="http://localhost:8080/file3">Get File3</a>
+        <a href="http://localhost:8080/exit">Exit</a>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Client-server-model.svg/1200px-Client-server-model.svg.png" />
+    </div>
+</body>
+
+</html>
